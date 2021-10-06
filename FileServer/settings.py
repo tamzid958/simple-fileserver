@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-*dsfyr7y2n8#yg7)^0ps8elh*e5^#o70ex$)5=7fkc3x7ba(p4
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "*"
+    "*",
+    "base64-fileserver-dsi.herokuapp.com"
 ]
 
 

@@ -1,1 +1,1 @@
-web: gunicorn RevSurvey.wsgi --log-file -
+web: gunicorn FileServer.wsgi --log-file -

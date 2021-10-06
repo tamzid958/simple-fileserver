@@ -1,0 +1,1 @@
+web: gunicorn RevSurvey.wsgi --log-file -

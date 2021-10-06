@@ -68,7 +68,9 @@ CSRF_COOKIE_HTTPONLY = True
 SESSION_COOKIE_HTTPONLY = True
 
 CORS_ORIGIN_WHITELIST = [
+    'http://localhost',
     'http://localhost:3000',
+    'http://localhost:6006',
 ]
 
 CORS_EXPOSE_HEADERS = ['Content-Type', 'X-CSRFToken']
